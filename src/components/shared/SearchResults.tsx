@@ -1,7 +1,6 @@
 import { Models } from "appwrite";
 import Loader from "./Loader";
 import GridPostList from "./GridPostList";
-import { searchPosts } from "@/lib/appwrite/api";
 
 export type SearchResultProps = {
   isSearchFetching: boolean;
